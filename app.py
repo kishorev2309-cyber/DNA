@@ -112,7 +112,7 @@ with st.sidebar:
 
 # INPUT
 st.header("1. Input DNA Sequence")
-dna = st.text_input("Enter DNA (A T G C):", "TACCGTTACTAG").upper()
+dna = st.text_input("Enter DNA (A T G C):", "ATGCGTACGTTAGCCTAGGCTTACGGAATCGT").upper()
 
 if dna:
 
